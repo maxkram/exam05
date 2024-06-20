@@ -4,8 +4,7 @@
 
 // class ATarget;
 
-// class ASpell
-// {
+// class ASpell // {
 //     private:
 //         std::string name;
 //         std::string effects;

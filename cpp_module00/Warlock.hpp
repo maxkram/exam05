@@ -2,8 +2,7 @@
 
 // #include <iostream>
 
-// class Warlock
-// {
+// class Warlock {
 //     private:
 //         // private data members
 //         std::string name;
@@ -27,11 +26,9 @@
 
 //         void introduce() const;
 // };
-
 #pragma once
 #include <iostream>
-class Warlock
-{
+class Warlock {
     private:
         std::string name;
         std::string title;
