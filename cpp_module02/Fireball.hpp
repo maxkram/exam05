@@ -2,11 +2,11 @@
 
 #include "ASpell.hpp"
 
-class Fireball: public ASpell
-{
-    public:
-        Fireball();
-        ~Fireball();
+class Fireball : public ASpell {
+public:
+    Fireball();
 
-        virtual ASpell *clone() const;
+    ~Fireball();
+
+    virtual ASpell *clone() const;
 };
