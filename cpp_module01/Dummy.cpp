@@ -1,16 +1,6 @@
-// #include "Dummy.hpp"
-
-// Dummy::Dummy() : ATarget("Target Practice Dummy") {}
-
-// Dummy::~Dummy() {}
-
-// ATarget *Dummy::clone() const {
-// 	return (new Dummy());
-// }
-
 #include "Dummy.hpp"
-Dummy::Dummy() : ATarget("Target Practise Dummy") {}
+Dummy::Dummy() : ATarget("Target Practice Dummy") {}
 Dummy::~Dummy() {}
-ATarget *Dummy::clone() const {
+ATarget *Dummy::clone () const {
 	return (new Dummy());
 }
