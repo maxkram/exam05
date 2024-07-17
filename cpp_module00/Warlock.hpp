@@ -15,7 +15,6 @@
 // 		void setTitle(std::string const &title);
 // 		void introduce() const;
 // };
-
 #pragma once
 #include <iostream>
 class Warlock {
