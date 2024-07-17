@@ -22,7 +22,6 @@
 // 		void forgetSpell(std::string name);
 // 		void launchSpell(std::string name, ATarget const &target_ref);
 // };
-
 #pragma once
 #include <iostream>
 #include "ASpell.hpp"
