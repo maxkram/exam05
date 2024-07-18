@@ -8,7 +8,7 @@ Warlock::~Warlock(){
 	std::cout << this->name << ": My job here is done!\n";
 	std::map<std::string, ASpell *>::iterator it_begin = this->arr.begin();
 	std::map<std::string, ASpell *>::iterator it_end = this->arr.end();
-	while (it_begin != it_end) {
+	while(it_begin != it_end) {
 		delete it_begin->second;
 		++it_begin;
 	}
