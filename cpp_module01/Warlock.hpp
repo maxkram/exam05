@@ -44,5 +44,5 @@ class Warlock {
 		void introduce() const;
 		void learnSpell(ASpell *aspell_ptr);
 		void forgetSpell(std::string name);
-		void launchSpell(std::string name, ATarget const &target_ref);
+		void launchSpell(std::string name, ATarget const &atarget_ref);
 };
