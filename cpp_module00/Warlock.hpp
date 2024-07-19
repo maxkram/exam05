@@ -6,7 +6,7 @@ class Warlock {
 		std::string title;
 		Warlock();
 		Warlock(Warlock const &other);
-		Warlock &operator = (Warlock const &other);
+		Warlock &operator=(Warlock const &other);
 	public:
 		Warlock(std::string const &name, std::string const &title);
 		~Warlock();
