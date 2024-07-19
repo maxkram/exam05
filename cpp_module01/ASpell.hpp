@@ -1,7 +1,9 @@
 #pragma once
-#include "ATarget.hpp"
 #include <iostream>
+#include "ATarget.hpp"
+
 class ATarget;
+
 class ASpell {
 	private:
 		std::string name;

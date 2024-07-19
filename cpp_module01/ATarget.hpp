@@ -2,6 +2,7 @@
 #include <iostream>
 #include "ASpell.hpp"
 class ASpell;
+
 class ATarget {
 	private:
 		std::string type;

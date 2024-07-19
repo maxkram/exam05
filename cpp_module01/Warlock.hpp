@@ -3,6 +3,7 @@
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 #include <map>
+
 class Warlock {
 	private:
 		std::string name;
