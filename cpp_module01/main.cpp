@@ -2,7 +2,8 @@
 #include "Fwoosh.hpp"
 #include "Dummy.hpp"
 
-int main() {
+int main()
+{
     Warlock richard("Richard", "the Titled");
 
     Dummy bob;

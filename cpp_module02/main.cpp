@@ -6,7 +6,8 @@
 #include "TargetGenerator.hpp"
 #include "Fireball.hpp"
 
-int main() {
+int main()
+{
     Warlock richard("Richard", "foo");
     richard.setTitle("Hello, I'm Richard the Warlock!");
     BrickWall model1;
