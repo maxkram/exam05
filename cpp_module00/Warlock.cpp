@@ -6,7 +6,7 @@ Warlock::Warlock(std::string const &name, std::string const &title) {
 	std::cout << this->name << ": This looks like another boring day.\n";
 }
 
-Warlock::~Warlock(){
+Warlock::~Warlock() {
 	std::cout << this->name << ": My job here is done!\n";
 }
 

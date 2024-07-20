@@ -3,7 +3,6 @@
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 #include <map>
-
 class Warlock {
 	private:
 		std::string name;
@@ -17,7 +16,7 @@ class Warlock {
 		~Warlock();
 		std::string const &getName() const;
 		std::string const &getTitle() const;
-		void setTitle(std::string const &title);
+		void setTitle(std::string const &name);
 		void introduce() const;
 		void learnSpell(ASpell *aspell_ptr);
 		void forgetSpell(std::string name);

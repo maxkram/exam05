@@ -1,6 +1,6 @@
 #pragma once
-#include <iostream>
 #include "ATarget.hpp"
+#include <iostream>
 class ATarget;
 class ASpell {
 	private:
