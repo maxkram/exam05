@@ -5,9 +5,7 @@ SpellBook::SpellBook() {}
 SpellBook::~SpellBook()
 {
 	for (std::map<std::string, ASpell *>::iterator it = arr_spell.begin(); it != arr_spell.end(); ++it)
-	{
 		delete it->second;
-	}
 	arr_spell.clear();
 }
 

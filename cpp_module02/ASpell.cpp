@@ -16,7 +16,6 @@ ASpell &ASpell::operator=(ASpell const &other)
 	return *this;
 }
 ASpell::~ASpell() {}
-
 std::string const &ASpell::getName() const
 {
 	return this->name;

@@ -1,0 +1,6 @@
+*.a
+*.o
+*.pdf
+./idea
+./vscode
+.DS_Store

@@ -20,6 +20,7 @@ ATarget *TargetGenerator::createTarget(std::string const &target_name)
 {
 	ATarget *tmp = NULL;
 	if (arr_target.find(target_name) != arr_target.end())
-		tmp = arr_target[target_name];
+		;
+	tmp = arr_target[target_name];
 	return tmp;
 }
