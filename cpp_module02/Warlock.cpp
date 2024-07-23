@@ -17,7 +17,10 @@ std::string const &Warlock::getTitle() const { return (this->title); }
 
 void Warlock::setTitle(std::string const &title) { this->title = title; }
 
-void Warlock::introduce() const { std::cout << this->name << ": I am " << this->name << ", " << this->title << "!\n"; }
+void Warlock::introduce() const
+{
+	std::cout << this->name << ": I am " << this->name << ", " << this->title << "!\n";
+}
 
 void Warlock::learnSpell(ASpell *aspell_ptr)
 {

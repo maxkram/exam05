@@ -1,7 +1,7 @@
 *.a
 *.o
 *.pdf
-./idea
-./vscode
+.idea
+.vscode
 .DS_Store
 start
