@@ -4,7 +4,7 @@ SpellBook::SpellBook() {}
 
 SpellBook::~SpellBook()
 {
-	while(this->arr_spell.begin() != this->arr_spell.end())
+	while (this->arr_spell.begin() != this->arr_spell.end())
 	{
 		delete this->arr_spell.begin()->second;
 		this->arr_spell.erase(arr_spell.begin());
@@ -15,9 +15,8 @@ SpellBook::~SpellBook()
 void SpellBook::learnSpell(ASpell *spell_ptr)
 {
 	if (spell_ptr)
-		// arr_spell.insert(std::pair<std::string, ASpell *>(spell_ptr->getName(), spell_ptr->clone()));
 		this->arr_spell[spell_ptr->getName()] = spell_ptr->clone();
-	}
+}
 
 void SpellBook::forgetSpell(std::string const &spell_name)
 {
